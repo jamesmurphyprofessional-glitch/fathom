@@ -8,3 +8,29 @@ compile_commands.json
 *.dSYM/
 CMakeUserPresets.json
 third_party/ret-sync/
+
+# Added: deps, outputs, secrets, binaries
+node_modules/
+dist/
+out/
+*.a
+*.so
+*.dylib
+*.exe
+*.app/
+.env
+.env*
+*.key
+*.pem
+*.p12
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.dmg
+*.iso
+*.bin
+# Malware / analysis samples (never commit)
+samples/
+*.malware
+*.vir

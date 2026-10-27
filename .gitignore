@@ -1,0 +1,10 @@
+build/
+build-asan/
+build-release/
+.cache/
+compile_commands.json
+.DS_Store
+*.o
+*.dSYM/
+CMakeUserPresets.json
+third_party/ret-sync/
